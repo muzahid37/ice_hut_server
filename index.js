@@ -31,7 +31,7 @@ async function run() {
 }
 run().catch(console.dir);
 app.get("/", (req, res) => {
-  res.send("Hello from ice hut!");
+  res.send("Hello from ice hut server");
 });
 
 app.listen(port, () => {
